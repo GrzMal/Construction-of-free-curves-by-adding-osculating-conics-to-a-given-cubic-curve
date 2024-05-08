@@ -2,7 +2,7 @@ In order to check computational results in the article: "Construction of free cu
 
 1a. Modify one of the core files of SINGULAR. This modification allows user to make field extensions computations, which are not cover by original library. To do so:
 
-a) download "classify.txt" file
+a) download files: "classify.txt", "cmp.txt"
 
 b) change name of this file to "classify.lib"
 
@@ -12,8 +12,8 @@ or
 
 1b.
 
-a) download "classify.txt" file
+a) download files: "classify.txt", "cmp.txt"
 
-b) Add after line 49 in file "cmp.txt" the line ' <"classify.txt"; '
+b) In the file "cmp.txt" add after line 49 the following line ' <"classify.txt"; ' and save the file
 
 2. Run in SINGULAR "cmp.txt" file.

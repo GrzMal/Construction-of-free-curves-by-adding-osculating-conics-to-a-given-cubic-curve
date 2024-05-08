@@ -9,9 +9,6 @@ or
 
 1b.
 a) download "classify.txt" file
-b) insert line ' <"classify.txt"; ' into
-c) replace the original file of the same name. The standard path for this file is (...\cygwin64\usr\local\share\singular\LIB)
+b) Add after line 49 in file "cmp.txt" the line ' <"classify.txt"; '
 
 2. Run in SINGULAR "cmp.txt" file.
-
-

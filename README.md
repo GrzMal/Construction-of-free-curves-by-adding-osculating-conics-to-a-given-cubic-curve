@@ -10,7 +10,7 @@ c) replace the original file of the same name. The standard path for this file i
 
 or
 
-1b.
+1b. Modify procedures from "classify.lib" only for current session, by doing the following:
 
 a) download files: "classify.txt", "cmp.txt"
 
